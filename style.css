@@ -29,7 +29,7 @@ img {
 p {
     text-align: center;
     font-weight: 400;
-    color: hsl(212, 45%, 89%);
+    color: hsl(213, 19%, 78%);
 }
 
 .big-text {
@@ -44,4 +44,19 @@ p {
 a {
     text-decoration: none;
     color: gray;
+}
+
+@media (max-width: 90rem) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 25rem;
+    }
+
+    .big-text {
+        font-size: 1.3em;
+    }
 }
